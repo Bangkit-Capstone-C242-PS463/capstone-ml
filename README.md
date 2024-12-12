@@ -11,13 +11,19 @@ Insight - Machine Learning Model and Prediction API
 Follow these steps to setup and run the application:
 
 1. Copy the .env structure to create your development environment file:
-```cp .env.example .env.dev```
+```
+cp .env.example .env.dev
+```
 Update the values in `.env.dev` as needed.
 2. Install the dependencies:
-```pip install -r requirement.txt```
+```
+pip install -r requirement.txt
+```
 Run the command from the root directory
 3. Run the server:
-```uvicorn app.server:app --reload```
+```
+uvicorn app.server:app --reload
+```
 Run the command from the root directory, server will run on `localhost:8000` and you can open `localhost:8000` to access the swagger UI for API testing.
 
 ## Credits
