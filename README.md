@@ -14,17 +14,19 @@ Follow these steps to setup and run the application:
 ```
 cp .env.example .env.dev
 ```
-Update the values in `.env.dev` as needed. <br>
+Update the values in `.env.dev` as needed.
+
 2. **Install the dependencies:**
 ```
 pip install -r requirement.txt
 ```
-Run the command from the root directory <br>
+Run the command from the root directory
+
 3. **Run the server:**
 ```
 uvicorn app.server:app --reload
 ```
-Run the command from the root directory, server will run on `localhost:8000` and you can open `localhost:8000` to access the swagger UI for API testing.
+Run the command from the root directory, server will run on `localhost:8000` and you can open `localhost:8000/doc` to access the swagger UI for API testing.
 
 ## Credits
 This project is implemented by Team C242-PS463.
